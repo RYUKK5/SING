@@ -1,4 +1,4 @@
 
 # RYUKK
 
-efrei
+efrei の授業。
