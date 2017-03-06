@@ -1,0 +1,149 @@
+
+/* --- ヘッダ --- */
+header{
+  border-top: 5px #402900 solid; /* ヘッダの上境界線 */
+}
+
+/* --- トップエリア --- */
+header div.top {
+  padding: 15px 0 10px; /* トップエリアのパディング（上、左右、下） */
+  background-color: #fbf6f1; /* トップエリアの背景色 */
+  border-top: 1px #ffffff solid; /* トップエリアの上境界線 */
+  border-bottom: 1px #402900 solid; /* トップエリアの下境界線 */
+}
+header div.top div.container {
+  position: relative; /* 相対配置（ガイドメニューのために設定） */
+}
+
+/* --- サイトタイトル --- */
+header h1.siteTitle,
+header p.siteTitle {
+  margin: 0 0 7px; /* サイトタイトルのマージン（上、左右、下） */
+  font-size: 200%; /* サイトタイトルの文字サイズ */
+}
+/* サイトタイトルの画像 */
+header h1.siteTitle img,
+header p.siteTitle img {
+  border: none;
+}
+
+/* --- キャッチフレーズ --- */
+header p.catch {
+  margin: 0;
+}
+header p.catch strong {
+  font-weight: normal; /* 文字の太さ（ノーマル） */
+}
+
+/* --- ガイドメニュー --- */
+header ul.guide {
+  position: absolute; /* 絶対配置 */
+  top: 10px; /* 上からの距離 */
+  right: 10px; /* 右からの距離 */
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* メニュー項目 */
+header ul.guide li {
+  display: inline;
+  padding: 0 4px 0 8px; /* 項目のパディング（上右下左） */
+  background: url(../image/menu_line_gray.gif) no-repeat left; /* 項目の背景（区切り線） */
+}
+/* 最初の項目 */
+header ul.guide li.first {
+  background: none; /* 区切り線なし */
+}
+
+/* --- オープニングエリア（トップページ） --- */
+header div.opening {
+  padding: 8px 0; /* オープニングエリアのパディング（上下、左右） */
+  background: #eee2d0 url(../image/opening_back2.gif) repeat-x top; /* オープニングエリアの背景 */
+  border-bottom: 1px #402900 solid; /* オープニングエリアの下境界線 */
+}
+/* オープニングエリア内の見出し */
+header div.opening h2 {
+  margin: 0;
+}
+
+/* --- ヘッダメニュー --- */
+header div.nl {
+  background: #402700 url(../image/hor_menu7_off.gif) repeat-x top; /* ヘッダメニューの背景 */
+  border-top: 1px #4d3d21 solid; /* ヘッダメニューの上境界線 */
+  border-bottom: 2px #402900 solid; /* ヘッダメニューの下境界線 */
+}
+/* --- メニュー本体 --- */
+header div.nl ul {
+  width: 878px; /* メニュー本体の幅（コンテナの幅から2px引いた値） */
+  margin: 0;
+  padding: 0;
+  border-left: 1px #2e1c00 solid; /* メニュー本体の左境界線 */
+  border-right: 1px #4d3d21 solid; /* メニュー本体の右境界線 */
+  list-style-type: none;
+  text-align: center;
+}
+/* メニュー項目 */
+header div.nl li {
+  width: 146px; /* 項目の幅 */
+  float: left;
+  line-height: 100%;
+}
+/* 最初の項目と最後の項目 */
+header div.nl li.first,
+header div.nl li.last {
+  width: 147px; /* 項目の幅 */
+}
+/* リンクエリア */
+header div.nl li a {
+  display: block;
+  position: relative; /* IE6用 */
+  padding: 10px 2px 7px; /* リンクエリアのパディング（上、左右、下） */
+  border-left: 1px #4d3d21 solid; /* リンクエリアの左境界線 */
+  border-right: 1px #2e1c00 solid; /* リンクエリアの右境界線 */
+  text-decoration: none; /* テキストの下線（なし） */
+  font-weight: bold; /* 文字の太さ（太字） */
+  color: #ffffff; /* 文字色 */
+}
+/* 英字部分 */
+header div.nl li a span.en {
+  display: block;
+  margin-top: 2px; /* 英字部分の上マージン */
+  font-size: 85%; /* 英字の文字サイズ */
+  font-weight: normal; /* 文字の太さ（ノーマル） */
+  color: #eee8aa; /* 英字の文字色 */
+}
+/* ポイント時とアクティブ時の設定 */
+header div.nl li a:hover,
+header div.nl li.active a {
+  background: #4d3400 url(../image/hor_menu7_on.gif) repeat-x top; /* ポイント時（アクティブ時）の背景 */
+}
+header div.nl li a:hover span.en,
+header div.nl li.active span.en {
+  color: #fde337; /* ポイント時（アクティブ時）の英字の文字色 */
+}
+
+/* --- トピックパス（下層ページ） --- */
+header div.topicPath {
+  margin: 0;
+  padding: 7px 2px; /* トピックパスのパディング（上下、左右） */
+  background-color: #eee2d0; /* トピックパスの背景色 */
+}
+header div.topicPath ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* リスト項目 */
+header div.topicPath li {
+  display: inline;
+}
+/* リンクエリア */
+header div.topicPath li a {
+  padding-right: 12px; /* リンクエリアの右パディング */
+  background: url(../image/topic_path_gray.gif) no-repeat right; /* リンクエリアの背景（区切り記号） */
+}
+
+/* --- 罫線 --- */
+header hr.none {
+  display: none; /* 表示形式（なし） */
+}
