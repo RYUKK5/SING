@@ -1,6 +1,8 @@
 
 @charset "utf-8";
-@import ('nondestructive-reset');
+@import ('nondestructive-reset.css');
+@import ('normalize.css');
+@import ('reset.css');
 
 body {
   background-color: #ffffff;
