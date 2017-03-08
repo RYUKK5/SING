@@ -1,5 +1,6 @@
 
 @import url('pulldown_menu.css');
+@import url('e-mail.css');
 
 header {
   width: 100%;
@@ -8,13 +9,13 @@ header {
   padding: 0;
   background-color: black;
 }
-/* 上部固定 */
 header {
+  /* 上部固定 */
   top: 0;
   position: fixed;
 }
 
-header nav img.logo {
+header img.logo {
   padding: 10px;
   float: left;
 }
