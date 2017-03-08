@@ -1,2 +1,22 @@
 
 @import url('pulldown_menu.css');
+@import url('e-mail.css');
+
+header {
+  width: 100%;
+  height: 70px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: black;
+  z-index: 100;
+}
+header {
+  /* 上部固定 */
+  top: 0;
+  position: fixed;
+}
+
+header img.logo {
+  padding: 10px;
+  float: left;
+}

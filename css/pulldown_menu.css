@@ -2,11 +2,10 @@
 /* Style */
 
 nav.pulldown_menu {
-  width: 960px;
-  margin: 5px auto 30px;
+  width: 800px;
+  margin: 0 auto;
   padding: 0;
   list-style-type: none;
-  *zoom: 1;
 }
 nav.pulldown_menu:before, nav.pulldown_menu:after {
   content: "";
@@ -30,7 +29,7 @@ nav.pulldown_menu li a {
   margin: 0;
   padding: 15px 0 11px;
   background: black;
-  color: #fff;
+  color: #eee;
   display: block;
   font-size: 14px;
   line-height: 1;
@@ -55,7 +54,7 @@ nav.pulldown_menu li ul li a {
   text-align: left;
 }
 nav.pulldown_menu li:hover > a {
-  background: #333;
+  background: #444;
 }
 nav.pulldown_menu li a:hover {
   background: #777;
