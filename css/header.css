@@ -1,9 +1,20 @@
 
 @import url('pulldown_menu.css');
 
-header {
+header, header+.background {
   width: 100%;
-  background-color: black;
+  height: 70px;
   margin: 0 auto;
   padding: 0;
+  background-color: black;
+}
+
+header {
+  top: 0;
+  position: fixed; /* 上部固定 */
+}
+
+header nav img.logo {
+  padding: 10px;
+  float: left;
 }
