@@ -11,7 +11,7 @@ body {
   animation: AnimationName 10s ease infinite;
   background: linear-gradient(45deg, #9370db, #afeeee, #6495ed);
   background-color: #999;
-  color: #404040;
+  color: #333;
 }
 @keyframes AnimationName {
     0% { background-position:0% 50% }
