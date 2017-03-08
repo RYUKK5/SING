@@ -2,8 +2,8 @@
 /* Style */
 
 nav.pulldown_menu {
-  width: 960px;
-  margin: 5px auto 30px;
+  width: 800px;
+  margin: auto;
   padding: 0;
   list-style-type: none;
   *zoom: 1;

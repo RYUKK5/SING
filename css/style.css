@@ -5,26 +5,27 @@
 @import ('reset.css');
 
 body {
+  min-width: 800px;
+  padding: 0;
+  margin: 0 auto;
   animation: AnimationName 10s ease infinite;
   background: linear-gradient(45deg, #9370db, #afeeee, #6495ed);
-  background-color: #ffffff;
-  background-size: 600% 600%;
+  background-color: #999;
   color: #404040;
-  min-width: 800px;
 }
-
 @keyframes AnimationName {
     0% { background-position:0% 50% }
     50% { background-position:100% 50% }
     100% { background-position:0% 50% }
 }
 
-a:link { color: #0000ff; }
-a:visited { color: #000090; }
-a:hover { color: #c07100; }
-a:active { color: #c07100; }
-
-header, div#main, footer {
-  /* Centering */
+div#main {
+  width: 800px;
   margin: 0 auto;
+  padding: 0;
 }
+
+/* a:link { color: #0000ff; } */
+/* a:visited { color: #000090; } */
+/* a:hover { color: #c07100; } */
+/* a:active { color: #c07100; } */

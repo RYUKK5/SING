@@ -1,2 +1,9 @@
 
 @import url('pulldown_menu.css');
+
+header {
+  width: 100%;
+  background-color: black;
+  margin: 0 auto;
+  padding: 0;
+}
