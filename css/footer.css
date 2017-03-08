@@ -2,11 +2,15 @@
 footer {
   width: 100%;
   margin: 0 auto;
-  padding: 10px 0;
+  padding: 0;
   background-color: black;
   bottom: 0;
   color: #eee;
   z-index: 100;
+}
+
+contents{
+padding-bottom: 10px;
 }
 
 footer {
