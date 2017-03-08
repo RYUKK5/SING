@@ -1,5 +1,25 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
 
+.img{
+  width: 2000px;
+  height: 1200px;
+  background: url(http://weblifetimes.com/wp-content/uploads/2016/08/28_2.jpg) no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+}
+
+.gradation{
+  width: 2400px;
+  height: 2000px;
+  background: linear-gradient(45deg, rgba(108,184,255,08), rgba(255,246,108,.8), rgba(255,163,108,.8));
+  background-size: 600% 600%;
+  animation: AnimationName 10s ease infinite;
+  position: absolute;
+  opacity: .7;
+  z-index: 2;
+}
+
 figure.topImage {
   font-family: 'Raleway', Arial, sans-serif;
   color: #fff;
@@ -11,6 +31,7 @@ figure.topImage {
   height: 100%;
   color: #000000;
   text-align: center;
+  z-index: 3:
 }
 
 figure.topImage img {
@@ -35,6 +56,7 @@ figure.snip1206{
   max-height: 400px;
   width: 100%;
   color: #000000;
+  z-index: 3;
   text-align: center;
   box-shadow: 0 4px 48px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
