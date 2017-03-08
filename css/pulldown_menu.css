@@ -2,11 +2,11 @@
 /* Style */
 
 nav.pulldown_menu {
-  *zoom: 1;
-  list-style-type: none;
   width: 960px;
   margin: 5px auto 30px;
   padding: 0;
+  list-style-type: none;
+  *zoom: 1;
 }
 nav.pulldown_menu:before, nav.pulldown_menu:after {
   content: "";
@@ -19,56 +19,56 @@ nav.pulldown_menu ul {
   list-style: none;
 }
 nav.pulldown_menu li {
-  position: relative;
   width: 20%;
-  float: left;
   margin: 0;
   padding: 0;
+  float: left;
+  position: relative;
   text-align: center;
 }
 nav.pulldown_menu li a {
-  display: block;
   margin: 0;
   padding: 15px 0 11px;
-  background: #8a9b0f;
+  background: black;
   color: #fff;
+  display: block;
   font-size: 14px;
   line-height: 1;
   text-decoration: none;
 }
 nav.pulldown_menu li ul {
-  list-style: none;
-  position: absolute;
-  z-index: 9999;
   top: 100%;
   left: 0;
   margin: 0;
   padding: 0;
+  list-style: none;
+  position: absolute;
+  z-index: 9999;
 }
 nav.pulldown_menu li ul li {
   width: 100%;
 }
 nav.pulldown_menu li ul li a {
-  background: #6e7c0c;
-  border-top: 1px solid #7c8c0e;
   padding: 13px 15px;
+  background: #333;
+  border-top: 1px solid #555;
   text-align: left;
 }
 nav.pulldown_menu li:hover > a {
-  background: #6e7c0c;
+  background: #333;
 }
 nav.pulldown_menu li a:hover {
-  background: #616d0b;
+  background: #777;
 }
 
 /* Animation (spread) */
 
 nav.pulldown_menu li ul li {
-  overflow: hidden;
   height: 0;
+  overflow: hidden;
   transition: .2s;
 }
 nav.pulldown_menu li:hover ul li {
-  overflow: visible;
   height: 38px;
+  overflow: visible;
 }
