@@ -6,30 +6,39 @@ figure.topImage {
   position: relative;
   float: left;
   overflow: hidden;
-  margin: 0;
-  min-width: 220px;
-  max-width: 1800px;
-  max-height: 600px;
+  margin: 10;
   width: 100%;
   height: 100%;
   color: #000000;
   text-align: center;
 }
 
-figure.snip1206 {
+figure.topImage img {
+  opacity: 1;
+  width: 100%;
+  min-width: 220px;
+  max-width: 1000px;
+  max-height: 600px;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+
+figure.snip1206{
   font-family: 'Raleway', Arial, sans-serif;
   color: #fff;
   position: relative;
   float: left;
   overflow: hidden;
-  margin: 0;
+  margin: 2;
   min-width: 220px;
-  max-width: 700px;
+  max-width: 600px;
   max-height: 400px;
   width: 100%;
   color: #000000;
   text-align: center;
+  box-shadow: 0 4px 48px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
+
 figure.snip1206 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -39,6 +48,9 @@ figure.snip1206 * {
 figure.snip1206 img {
   opacity: 1;
   width: 100%;
+  min-width: 220px;
+  max-width: 700px;
+  max-height: 400px;
   -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s;
 }
