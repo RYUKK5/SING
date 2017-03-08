@@ -8,12 +8,13 @@ body {
   background-color: #ffffff;
   color: #404040;
   min-width: 800px;
-  background: linear-gradient(45deg, #E0F8F1, #fff66c, #E0F8F1);
+  background: linear-gradient(45deg, #9370db, #afeeee, #6495ed
+  );
   background-size: 600% 600%;
-  animation: AnimationName 20s ease infinite;
+  animation: AnimationName 10s ease infinite;
 }
 
-@keyframes AnimationName { 
+@keyframes AnimationName {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
