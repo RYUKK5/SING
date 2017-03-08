@@ -1,11 +1,10 @@
 
-@import ('top.css');
+@import url('top.css');
 
 /* --- コンテンツ --- */
 #content {
   padding: 20px 0 10px; /* コンテンツのパディング（上、左右、下） */
 }
-
 
 /* --- ▼メインカラム内の設定開始 --- */
 

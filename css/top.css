@@ -1,44 +1,25 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
 
-.img{
-  width: 2000px;
-  height: 1200px;
-  background: url(http://weblifetimes.com/wp-content/uploads/2016/08/28_2.jpg) no-repeat;
-  background-size: cover;
-  position: absolute;
-  z-index: 1;
-}
-
-.gradation{
-  width: 2400px;
-  height: 2000px;
-  background: linear-gradient(45deg, rgba(108,184,255,08), rgba(255,246,108,.8), rgba(255,163,108,.8));
-  background-size: 600% 600%;
-  animation: AnimationName 10s ease infinite;
-  position: absolute;
-  opacity: .7;
-  z-index: 2;
-}
-
 figure.topImage {
   font-family: 'Raleway', Arial, sans-serif;
   color: #fff;
   position: relative;
-  float: left;
+  float: center;
+  align: center;
   overflow: hidden;
-  margin: 10;
-  width: 100%;
-  height: 100%;
+  margin: 0;
+  width: 50%;
+  height: 50%;
   color: #000000;
   text-align: center;
-  z-index: 3:
+  z-index: 3;
 }
 
 figure.topImage img {
   opacity: 1;
   width: 100%;
   min-width: 220px;
-  max-width: 1000px;
+  max-width: 1200px;
   max-height: 600px;
   -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s;
@@ -52,7 +33,7 @@ figure.snip1206{
   overflow: hidden;
   margin: 2;
   min-width: 220px;
-  max-width: 600px;
+  max-width: 800px;
   max-height: 400px;
   width: 100%;
   color: #000000;
@@ -71,7 +52,7 @@ figure.snip1206 img {
   opacity: 1;
   width: 100%;
   min-width: 220px;
-  max-width: 700px;
+  max-width:800px;
   max-height: 400px;
   -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s;
@@ -145,5 +126,109 @@ figure.snip1206.hover figcaption h2 {
 }
 figure.snip1206:hover figcaption p,
 figure.snip1206.hover figcaption p {
+  opacity: 0.7;
+}
+
+figure.snip1206_mirror{
+  font-family: 'Raleway', Arial, sans-serif;
+  color: #fff;
+  position: relative;
+  float: right;
+  overflow: hidden;
+  margin: 2;
+  min-width: 220px;
+  max-width: 800px;
+  max-height: 400px;
+  width: 100%;
+  color: #000000;
+  z-index: 3;
+  text-align: center;
+  box-shadow: 0 4px 48px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+
+figure.snip1206_mirror * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+figure.snip1206_mirror img {
+  opacity: 1;
+  width: 100%;
+  min-width: 220px;
+  max-width:800px;
+  max-height: 400px;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+figure.snip1206_mirror:after {
+  background: #ffffff;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: '';
+  opacity: 0.75;
+  -webkit-transform: skew(-45deg) scaleX(0);
+  transform: skew(-45deg) scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+figure.snip1206_mirror figcaption {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+}
+figure.snip1206_mirror h2,
+figure.snip1206_mirror p {
+  margin: 0;
+  width: 100%;
+  opacity: 0;
+}
+figure.snip1206_mirror h2 {
+  padding: 0 30px;
+  display: inline-block;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+figure.snip1206_mirror p {
+  padding: 0 50px;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+figure.snip1206_mirror a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+figure.snip1206_mirror:hover:after,
+figure.snip1206_mirror.hover:after {
+  -webkit-transform: skew(-45deg) scaleX(1);
+  transform: skew(-45deg) scaleX(1);
+  transition: all 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+figure.snip1206_mirror:hover figcaption h2,
+figure.snip1206_mirror.hover figcaption h2,
+figure.snip1206_mirror:hover figcaption p,
+figure.snip1206_mirror.hover figcaption p {
+  -webkit-transform: translate3d(0%, 0%, 0);
+  transform: translate3d(0%, 0%, 0);
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+figure.snip1206_mirror:hover figcaption h2,
+figure.snip1206_mirror.hover figcaption h2 {
+  opacity: 1;
+}
+figure.snip1206_mirror:hover figcaption p,
+figure.snip1206_mirror.hover figcaption p {
   opacity: 0.7;
 }

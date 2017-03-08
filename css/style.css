@@ -5,26 +5,37 @@
 @import ('reset.css');
 
 body {
+   /* 画像ファイルの指定 */
+  background: linear-gradient(rgba(108,184,255,08), rgba(120,170,200,.6), rgba(255,163,255,.6)),
+  url(../img/nagoya.jpg);
+   
+  /* 画像を常に天地左右の中央に配置 */
+  background-position: center center;
+   
+  /* 画像をタイル状に繰り返し表示しない */
+  background-repeat: no-repeat;
+   
+  /* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
+  background-attachment: fixed;
+   
+  /* 表示するコンテナの大きさに基づいて、背景画像を調整 */
+  background-size: cover;
+  
   animation: AnimationName 10s ease infinite;
-  background: linear-gradient(45deg, #9370db, #afeeee, #6495ed);
-  background-color: #ffffff;
-  background-size: 600% 600%;
-  color: #404040;
-  min-width: 800px;
 }
-
 @keyframes AnimationName {
     0% { background-position:0% 50% }
     50% { background-position:100% 50% }
     100% { background-position:0% 50% }
 }
 
-a:link { color: #0000ff; }
-a:visited { color: #000090; }
-a:hover { color: #c07100; }
-a:active { color: #c07100; }
-
-header, div#main, footer {
-  /* Centering */
+div#main {
+  width: 800px;
   margin: 0 auto;
+  padding: 0;
 }
+
+/* a:link { color: #0000ff; } */
+/* a:visited { color: #000090; } */
+/* a:hover { color: #c07100; } */
+/* a:active { color: #c07100; } */
