@@ -1,4 +1,6 @@
 
+@import ('top.css');
+
 /* --- コンテンツ --- */
 #content {
   padding: 20px 0 10px; /* コンテンツのパディング（上、左右、下） */
