@@ -54,7 +54,7 @@ nav.pulldown_menu li ul li a {
   text-align: left;
 }
 nav.pulldown_menu li:hover > a {
-  background: #333;
+  background: #444;
 }
 nav.pulldown_menu li a:hover {
   background: #777;
