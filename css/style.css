@@ -5,19 +5,18 @@
 @import ('reset.css');
 
 body {
+  animation: AnimationName 10s ease infinite;
+  background: linear-gradient(45deg, #9370db, #afeeee, #6495ed);
   background-color: #ffffff;
+  background-size: 600% 600%;
   color: #404040;
   min-width: 800px;
-  background: linear-gradient(45deg, #9370db, #afeeee, #6495ed
-  );
-  background-size: 600% 600%;
-  animation: AnimationName 10s ease infinite;
 }
 
 @keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0% { background-position:0% 50% }
+    50% { background-position:100% 50% }
+    100% { background-position:0% 50% }
 }
 
 a:link { color: #0000ff; }
