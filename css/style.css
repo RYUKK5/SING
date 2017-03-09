@@ -8,15 +8,30 @@ body {
   min-width: 800px;
   padding: 0;
   margin: 0 auto;
-  animation: AnimationName 10s ease infinite;
-  background: linear-gradient(45deg, #9370db, #afeeee, #6495ed);
   background-color: #999;
   color: #333;
+
+  /* 画像ファイルの指定 */
+  background: linear-gradient(rgba(108,184,255,08), rgba(120,170,200,.6), rgba(255,163,255,.6)), url(../img/nagoya.jpg);
+
+  /* 画像を常に天地左右の中央に配置 */
+  background-position: center center;
+
+  /* 画像をタイル状に繰り返し表示しない */
+  background-repeat: no-repeat;
+
+  /* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
+  background-attachment: fixed;
+
+  /* 表示するコンテナの大きさに基づいて、背景画像を調整 */
+  background-size: cover;
+
+  animation: AnimationName 10s ease infinite;
 }
 @keyframes AnimationName {
-    0% { background-position:0% 50% }
-    50% { background-position:100% 50% }
-    100% { background-position:0% 50% }
+  0% { background-position:0% 50% }
+  50% { background-position:100% 50% }
+  100% { background-position:0% 50% }
 }
 
 div#main {
