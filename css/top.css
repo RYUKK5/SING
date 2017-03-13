@@ -39,7 +39,6 @@ figure.effectImage{
   color: #000000;
   z-index: 3;
   text-align: center;
-  box-shadow: 0 4px 48px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
 
 figure.effectImage * {
@@ -143,7 +142,6 @@ figure.effectImage_mirror{
   color: #000000;
   z-index: 3;
   text-align: center;
-  box-shadow: 0 4px 48px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
 
 figure.effectImage_mirror * {
