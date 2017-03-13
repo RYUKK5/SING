@@ -2,6 +2,10 @@
 @import url('e-mail.css');
 @import url('top.css');
 
+body{
+	display: none;
+}
+
 div#topMain {
   width: 1400px;
   margin: 0 auto;
