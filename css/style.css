@@ -1,8 +1,8 @@
 
 @charset "utf-8";
-@import ('nondestructive-reset.css');
-@import ('normalize.css');
-@import ('reset.css');
+@import url('nondestructive-reset.css');
+@import url('normalize.css');
+@import url('reset.css');
 
 body {
   min-width: 800px;
