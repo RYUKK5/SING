@@ -1,2 +1,10 @@
 
+@import url('e-mail.css');
 @import url('top.css');
+
+div#topMain {
+  width: 900px;
+  margin: 0 auto;
+  padding: 10px 0;
+  overflow: auto;
+}
