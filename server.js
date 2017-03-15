@@ -1,9 +1,11 @@
-var express = require('express');
-
-var app = express();
-app.use(express.static('htdoocs'));
 
 var port = 7270;
-app.listen(port, ()=> {
-  console.log('Expressサーバー起動');
+
+var express = require('express');
+var app = express();
+
+app.use(express.static('htdoocs'));
+
+app.listen(port, function() {
+  console.log("Express: Port: %d, Mode: %s", port, app.settings.env)
 });
