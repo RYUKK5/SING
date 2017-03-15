@@ -39,28 +39,28 @@ body {
 div#main {
   overflow: auto;
   background: inherit;
-  background-color: rgba(255,255,255,.15);
+  background-color: rgba(255,255,255,.45);
   position: relative;
   width: 700px;
-  margin: 10vh auto 15vh;
-  border: 10px solid rgba(255,255,255,.15);
+  margin: 10vh auto 2vh;
+  border: 10px solid rgba(255,255,255,.55);
   box-shadow: 1px 1px 4px rgba(0,0,0,.6);
   z-index: 5;
   font-size: 1.4rem;
+  font-family: "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HiraKakuPro-W3","ＭＳ Ｐゴシック","MS PGothic",Arial, Helvetica,sans-serif;
 }
-#div main:before {
-  background-color: rgba(255,255,255,.8);
+
+div#main *{
+  font-family: 'Oswald', Arial, sans-serif;
+}
+
+div#main:before {
+  background-color: rgba(255,255,255,.6);
   content: '';
   position: absolute;
   top: 0; left:0; right:0; bottom:0;
   filter: blur(25px);
   z-index: -1;
-}
- 
-svg {
-  height:0;
-  width: 0;
-  position: absolute;
 }
 
 /* a:link { color: #0000ff; } */
