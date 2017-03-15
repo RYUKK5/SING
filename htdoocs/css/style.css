@@ -52,8 +52,35 @@ div#main {
   overflow: hidden;
 }
 
+div#main h3{
+    position: relative;
+    padding: 9px;
+    padding-left: 0px;
+    font-weight: bold; /* フォント太さ */
+    font-size: 1.4em; /* フォントサイズ */
+}
+div#main h3:before{
+    content:''; 
+    height: 7px; /* 線太さ */
+    width: 100%;
+    display: block; 
+    position: absolute; 
+    top: 50px;  /* 上からの距離 */
+    left: 0px; 
+    background-color: #B92A2C; /* 背景色 */
+    filter: alpha(opacity=40);
+    -moz-opacity: 0.40;
+    -khtml-opacity: 0.40;
+    opacity: 0.40;
+    box-shadow: 0px 3px 3px 3px rgba(255,255,255, 0.3) inset;
+}
+
 div#main *{
  font-family: 'Oswald', Arial, sans-serif;
+}
+
+div#main h2{
+  text-align: center;
 }
 
 div#main p{
