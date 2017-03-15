@@ -1,14 +1,15 @@
 {
-  "name": "app.js",
+  "name": "gufs",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "This repository is the school mission of [efrei](http://www.efrei.fr).",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RYUKK5/SING.git"
+  },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "express": "^4.15.2"
-  }
+  "license": "ISC"
 }
