@@ -1,6 +1,7 @@
 
 @charset "utf-8";
 @import url('normalize.css');
+@import url('content.css');
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 @import url(https://fonts.googleapis.com/css?family=Quattrocento);
 
@@ -60,99 +61,7 @@ div#blur:before {
   z-index: -1;
 }
 
-div#main {
-  width: 900px;
-  margin: 10vh auto 2vh;
-  padding: 20px 60px;
-  background: inherit;
-  background-color: rgba(255,255,255,.45);
-  border: 10px solid rgba(255,255,255,.55);
-  box-shadow: 1px 1px 4px rgba(0,0,0,.6);
-  font-family: 'Oswald', Arial, sans-serif;
-  font-size: 1.4rem;
-  overflow: hidden;
-  position: relative;
-  z-index: 5;
-}
-div#main:before {
-  background-color: rgba(255,255,255,.6);
-  content: '';
-  filter: blur(25px);
-  position: absolute;
-  top: 0; left:0; right:0; bottom:0;
-  z-index: -1;
-}
 
-div #main *{
-  font-family: "Oswald";
-}
-
-div#main h2 {
-  /* margin: 20px; */
-  color: #202020;
-  letter-spacing: -2px;
-  text-align: center;
-  text-transform: uppercase;
-}
-div#main h2 span {
-  display: block;
-  margin: 11px 0 17px 0;
-  font-size: 80px;
-  line-height: 80px;
-  color: rgba(50,50,120,.8);
-  text-shadow: 0 13.36px 8.896px rgba(0,0,0,.4),0 -2px 1px #fff;
-  letter-spacing: -4px;
-}
-
-div#main h3 {
-  padding: 9px;
-  padding-left: 0px;
-  position: relative;
-  font-size: 1.4em;
-  font-weight: bold;
-}
-div#main h3:before {
-  width: 100%;
-  height: 7px; /* 線太さ */
-  left: 0px;
-  top: 50px;  /* 上からの距離 */
-  background-color: #B92A2C;
-  box-shadow: 0px 3px 3px 3px rgba(255,255,255, 0.3) inset;
-  content:'';
-  filter: alpha(opacity=40);
-  -moz-opacity: 0.40;
-  -khtml-opacity: 0.40;
-  display: block;
-  opacity: 0.40;
-  position: absolute;
-}
-
-div#main h4 {
-  padding: 0px;
-  padding-left: 0px;
-  position: relative;
-  font-size: 0.9em;
-  font-weight: bold;
-}
-div#main h4:before {
-  width: 100%;
-  height: 7px; /* 線太さ */
-  left: 0px;
-  top: 20px;  /* 上からの距離 */
-  background-color: rgba(0,0,100,1);
-  box-shadow: 0px 3px 3px 3px rgba(255,255,255, 0.3) inset;
-  content:'';
-  filter: alpha(opacity=40);
-  -moz-opacity: 0.40;
-  -khtml-opacity: 0.40;
-  display: block;
-  opacity: 0.40;
-  position: absolute;
-}
-
-div#main p {
-  font-size: 1rem;
-}
 
 /* a:link { color: #0000ff; } */
 /* a:visited { color: #000090; } */
