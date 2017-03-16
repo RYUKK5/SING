@@ -60,9 +60,12 @@ div#main:before {
   z-index: -1;
 }
 
+div #main *{
+  font-family: "Oswald";
+}
+
 div#main h2 {
   /* margin: 20px; */
-  font-family: "Paytone One";
   color: #202020;
   letter-spacing: -2px;
   text-align: center;
