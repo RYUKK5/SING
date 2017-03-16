@@ -92,6 +92,13 @@ div#main h4:before {
   position: absolute;
 }
 
+div#content{
+  width: 1400px;
+  margin: 0 auto;
+    padding: 10px 0;
+    overflow: auto;
+}
+
 iframe.tableCareer{
   width: 400px;
   height: 800px;
