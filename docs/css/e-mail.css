@@ -1,5 +1,5 @@
 
-header a.e-mail {
+a.e-mail {
   float: right;
   display: table-cell;
   line-height: 32px;
@@ -9,7 +9,10 @@ header a.e-mail {
   text-align: center;
   color: white;
 }
-header a.e-mail span {
+header a.e-mail {
+}
+
+a.e-mail span {
   position: relative;
   display: inline-block;
   margin: 5px 5px 0;
@@ -25,7 +28,7 @@ header a.e-mail span {
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-header a.e-mail span::before {
+a.e-mail span::before {
   position: absolute;
   top: 100%;
   left: 0;
@@ -43,13 +46,13 @@ header a.e-mail span::before {
   -moz-transform-origin: 50% 0;
   transform-origin: 50% 0;
 }
-header a.e-mail:hover span,
-header a.e-mail:focus span {
+a.e-mail:hover span,
+a.e-mail:focus span {
   -webkit-transform: rotateX(90deg) translateY(-22px);
   -moz-transform: rotateX(90deg) translateY(-22px);
   transform: rotateX(90deg) translateY(-22px);
 }
-header a.e-mail:hover span::before,
-header a.e-mail:focus span::before {
+a.e-mail:hover span::before,
+a.e-mail:focus span::before {
   background: #666;
 }
