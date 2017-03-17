@@ -99,7 +99,7 @@ div#content{
     overflow: auto;
 }
 
-iframe.tableCareer{
-  width: 400px;
-  height: 800px;
+iframe.google{
+  margin: 0 auto;
+  display: block;
 }
