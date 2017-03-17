@@ -18,7 +18,7 @@ body {
   flex-direction: column;
 
   /* 画像ファイルの指定 */
-  background: linear-gradient(rgba(108,184,255,.3), rgba(120,170,200,.1), rgba(255,163,255,.5)),url(../img/nagoya.png);
+  background: linear-gradient(rgba(108,184,255,.9), rgba(120,170,200,.1), rgba(255,163,255,.5)),url(../img/nagoya.png);
 
   /* 画像を常に天地左右の中央に配置 */
   background-position: center center;
@@ -41,9 +41,9 @@ body {
 }
 
 div#blur {
-  width: 1600px;
-  height: 1200px;
-  margin: 32vh auto 120vh;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
   padding: 20px 60px;
   background: inherit;
   background-color: rgba(0,0,0,.30);
@@ -55,15 +55,14 @@ div#blur {
   z-index: -5;
 }
 div#blur:before {
-  background-color: rgba(50,50,50,.7);
+  width: 100%;
+  background-color: rgba(50,50,50,.4);
   content: '';
   filter: blur(25px);
   position: absolute;
   top: 0; left:0; right:0; bottom:0;
   z-index: -1;
 }
-
-
 
 /* a:link { color: #0000ff; } */
 /* a:visited { color: #000090; } */
