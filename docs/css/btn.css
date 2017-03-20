@@ -2,6 +2,7 @@
   box-sizing: inherit;
   transition-property: all;
   transition-timing-function: ease;
+  top: -11px;
 }
 
 #display-block ul{
