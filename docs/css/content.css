@@ -104,9 +104,16 @@ iframe.google {
   display: block;
 }
 
+img {
+  padding: 8px;
+}
 img.center {
   margin: 8px auto;
-  padding: 8px;
+  display: block;
+}
+img.right {
+  margin: 8px;
+  margin-left: auto;
   display: block;
 }
 
