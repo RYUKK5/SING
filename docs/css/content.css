@@ -28,6 +28,9 @@ div #main *{
 div#main p {
   font-size: 1.15rem;
 }
+div#main p.center {
+  text-align: center;
+}
 
 div#main h2 {
   /* margin: 20px; */
