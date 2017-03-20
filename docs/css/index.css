@@ -8,10 +8,11 @@ body{
 
 div#topmenu {
   width: 520px;
-  height: 360px;
+  height: 335px;
   background: inherit;
   background-color: rgba(255,255,255,.4);
   box-shadow: 3px 3px 4px rgba(0,0,0,.6);
+  left: 37px;
   font-family: 'Oswald', Arial, sans-serif;
   font-size: 1.4rem;
   overflow: hidden;
