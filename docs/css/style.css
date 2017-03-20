@@ -63,8 +63,3 @@ div#blur:before {
   top: 0; left:0; right:0; bottom:0;
   z-index: -1;
 }
-
-/* a:link { color: #0000ff; } */
-/* a:visited { color: #000090; } */
-/* a:hover { color: #c07100; } */
-/* a:active { color: #c07100; } */
