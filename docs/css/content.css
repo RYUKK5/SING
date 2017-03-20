@@ -103,3 +103,9 @@ iframe.google{
   margin: 0 auto;
   display: block;
 }
+
+img.center{
+  margin: 8px auto;
+  padding: 8px;
+  display: block;
+}
