@@ -12,6 +12,7 @@ div#topmenu {
   background: inherit;
   background-color: rgba(0,105,255,.4);
   box-shadow: 3px 3px 4px rgba(0,0,0,.6);
+  top: 8px;
   left: 37px;
   font-family: 'Oswald', Arial, sans-serif;
   font-size: 1.4rem;
