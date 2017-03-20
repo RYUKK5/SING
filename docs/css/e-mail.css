@@ -1,17 +1,17 @@
 
 a.e-mail {
+  color: white;
   float: right;
-  display: table-cell;
   line-height: 32px;
   -webkit-perspective: 300px;
   -moz-perspective: 300px;
   perspective: 300px;
   text-align: center;
-  color: white;
 }
-
 header a.e-mail{
-
+  display: table-cell;
+}
+footer a.e-mail{
 }
 
  a.e-mail span {
