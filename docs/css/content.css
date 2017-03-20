@@ -92,20 +92,24 @@ div#main h4:before {
   position: absolute;
 }
 
-div#content{
+div#content {
   width: 1400px;
   margin: 0 auto;
   padding: 10px 0;
   overflow: auto;
 }
 
-iframe.google{
+iframe.google {
   margin: 0 auto;
   display: block;
 }
 
-img.center{
+img.center {
   margin: 8px auto;
   padding: 8px;
   display: block;
+}
+
+img.supportMember {
+  width: 200px;
 }
