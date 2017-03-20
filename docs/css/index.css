@@ -6,11 +6,25 @@ body{
 	display: none;
 }
 
-div#content{
-	width: 1400px;
-	margin: 0 auto;
-  	padding: 10px 0;
-  	overflow: auto;
+div#topmenu {
+  width: 520px;
+  height: 360px;
+  background: inherit;
+  background-color: rgba(255,255,255,.4);
+  box-shadow: 3px 3px 4px rgba(0,0,0,.6);
+  font-family: 'Oswald', Arial, sans-serif;
+  font-size: 1.4rem;
+  overflow: hidden;
+  position: relative;
+  z-index: 5;
+}
+div#topmenu:before {
+  background-color: rgba(0,0,0,.6);
+  content: '';
+  filter: blur(25px);
+  position: absolute;
+  top: 0; left:0; right:0; bottom:0;
+  z-index: -1;
 }
 
 div#topMain {
