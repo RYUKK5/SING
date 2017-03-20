@@ -18,14 +18,15 @@ nav.pulldown_menu ul {
   list-style: none;
 }
 nav.pulldown_menu li {
-  width: 22%;
+  width: 23%;
   margin: 0;
   padding: 0;
   float: left;
   position: relative;
   text-align: center;
 }
-nav.pulldown_menu li a {
+nav.pulldown_menu li a,
+nav.pulldown_menu span {
   margin: 0;
   padding: 15px 0 11px;
   background: black;
@@ -47,16 +48,19 @@ nav.pulldown_menu li ul {
 nav.pulldown_menu li ul li {
   width: 100%;
 }
-nav.pulldown_menu li ul li a {
+nav.pulldown_menu li ul li a,
+nav.pulldown_menu li ul li span {
   padding: 13px 15px;
   background: #333;
   border-top: 1px solid #555;
   text-align: left;
 }
-nav.pulldown_menu li:hover > a {
+nav.pulldown_menu li:hover > a,
+nav.pulldown_menu li:hover > span {
   background: #444;
 }
-nav.pulldown_menu li a:hover {
+nav.pulldown_menu li a:hover,
+nav.pulldown_menu li span:hover {
   background: #777;
 }
 
