@@ -17,28 +17,20 @@ body {
   display: flex;
   flex-direction: column;
 
-  /* 画像ファイルの指定 */
-  background: linear-gradient(rgba(108,184,255,.45), rgba(120,170,200,.1), rgba(255,163,255,.5)),url(/img/bg.png);
-
-  /* 画像を常に天地左右の中央に配置 */
-  background-position: center center;
-
-  /* 画像をタイル状に繰り返し表示しない */
-  background-repeat: no-repeat;
-
-  /* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
-  background-attachment: fixed;
-
-  /* 表示するコンテナの大きさに基づいて、背景画像を調整 */
-  background-size: cover;
-
-  animation: AnimationName 10s ease infinite;
+  /* Backgound */
+  background: linear-gradient(rgba(108,184,255,.45), rgba(120,170,200,.1), rgba(255,163,255,.5)), url(/img/bg.png); /* 画像ファイルの指定 */
+  background-position: center center; /* 画像を常に上下左右の中央に配置 */
+  background-repeat: no-repeat; /* 画像をタイル状に繰り返し表示しない */
+  background-attachment: fixed; /* 'コンテンツの高さ > 画像の高さ' の時に動くのを防止 */
+  background-size: cover; /* 表示するコンテナの大きさに基づき背景画像を調整 */
+  /* animation: yurayuraBG 10s ease infinite; /* アニメーション */ */
 }
-@keyframes AnimationName {
-  0% { background-position:0% 50% }
-  50% { background-position:100% 50% }
-  100% { background-position:0% 50% }
-}
+/* /* 面画を縮小した時に背景をゆらゆらさせる */ */
+/* @keyframes yurayuraBG { */
+/*   0% { background-position:0% 50% } */
+/*   50% { background-position:100% 50% } */
+/*   100% { background-position:0% 50% } */
+/* } */
 
 div#blur {
   width: 100%;
