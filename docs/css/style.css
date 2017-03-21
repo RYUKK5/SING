@@ -7,8 +7,13 @@
 @import url('footer.css');
 @import url('content.css');
 
+body:not(#index) {
+  min-width: 1070px;
+}
+body#index {
+  min-width: 1400px;
+}
 body {
-  min-width: 1100px;
   min-height: 100vh;
   padding: 0;
   margin: 0 auto;
