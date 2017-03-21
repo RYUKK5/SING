@@ -21,7 +21,7 @@ div#main:before {
   z-index: -1;
 }
 
-div #main *{
+div#main *{
   font-family: "Oswald",Arial,sans-serif;
 }
 
