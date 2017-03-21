@@ -96,7 +96,7 @@ div#main h4:before {
 }
 
 div#main iframe.google {
-  margin: 0 auto;
+  margin: 20px auto;
   display: block;
 }
 div#main img {
