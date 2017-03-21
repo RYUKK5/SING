@@ -26,7 +26,7 @@ nav.pulldown_menu li {
   text-align: center;
 }
 nav.pulldown_menu li a,
-nav.pulldown_menu span {
+nav.pulldown_menu li span {
   margin: 0;
   padding: 15px 0 11px;
   background: black;

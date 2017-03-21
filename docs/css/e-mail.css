@@ -14,7 +14,7 @@ header a.e-mail{
 footer a.e-mail{
 }
 
- a.e-mail span {
+a.e-mail span {
   position: relative;
   display: inline-block;
   margin: 5px 5px 0;
@@ -30,7 +30,7 @@ footer a.e-mail{
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
- a.e-mail span::before {
+a.e-mail span::before {
   position: absolute;
   top: 100%;
   left: 0;
@@ -48,13 +48,13 @@ footer a.e-mail{
   -moz-transform-origin: 50% 0;
   transform-origin: 50% 0;
 }
- a.e-mail:hover span,
- a.e-mail:focus span {
+a.e-mail:hover span,
+a.e-mail:focus span {
   -webkit-transform: rotateX(90deg) translateY(-22px);
   -moz-transform: rotateX(90deg) translateY(-22px);
   transform: rotateX(90deg) translateY(-22px);
 }
- a.e-mail:hover span::before,
- a.e-mail:focus span::before {
+a.e-mail:hover span::before,
+a.e-mail:focus span::before {
   background: #666;
 }
